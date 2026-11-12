@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Свежая пицца с доставкой домой. Выберите любимый вкус и оформите заказ.">
+  <title>Пицца рядом — доставка горячей пиццы</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="#home" aria-label="Пицца рядом — на главную">Пицца рядом</a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a class="site-nav__link" href="#menu">Меню</a>
+        <a class="site-nav__link" href="#delivery">Доставка</a>
+        <a class="site-nav__link" href="#contacts">Контакты</a>
+      </nav>
+      <a class="site-header__phone" href="tel:+78005553535">8 800 555-35-35</a>
+    </div>
+  </header>
+
+  <main class="main-content" id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Горячая. Свежая. Твоя.</p>
+        <h1 class="hero__title" id="hero-title">Пицца, которая делает день вкуснее</h1>
+        <p class="hero__text">Готовим из свежих ингредиентов и привозим горячей — прямо к вашей двери.</p>
+        <a class="button button_primary" href="#menu">Выбрать пиццу</a>
+      </div>
+      <div class="hero__visual" role="img" aria-label="Свежая пицца с томатами и базиликом">
+        <span class="hero__emoji" aria-hidden="true">🍕</span>
+      </div>
+    </section>
+
+    <section class="menu section" id="menu" aria-labelledby="menu-title">
+      <div class="section__heading">
+        <p class="section__eyebrow">Наши фавориты</p>
+        <h2 class="section__title" id="menu-title">Популярное меню</h2>
+      </div>
+
+      <div class="menu__list">
+        <article class="pizza-card">
+          <div class="pizza-card__visual" aria-hidden="true">🍕</div>
+          <div class="pizza-card__body">
+            <h3 class="pizza-card__title">Маргарита</h3>
+            <p class="pizza-card__description">Томаты, моцарелла, ароматный базилик и томатный соус.</p>
+            <div class="pizza-card__footer">
+              <p class="pizza-card__price">от 490 ₽</p>
+              <a class="button button_small" href="tel:+78005553535">Заказать</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pizza-card">
+          <div class="pizza-card__visual pizza-card__visual_pepperoni" aria-hidden="true">🍕</div>
+          <div class="pizza-card__body">
+            <h3 class="pizza-card__title">Пепперони</h3>
+            <p class="pizza-card__description">Пикантная пепперони, тягучая моцарелла и фирменный соус.</p>
+            <div class="pizza-card__footer">
+              <p class="pizza-card__price">от 590 ₽</p>
+              <a class="button button_small" href="tel:+78005553535">Заказать</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pizza-card">
+          <div class="pizza-card__visual pizza-card__visual_cheese" aria-hidden="true">🧀</div>
+          <div class="pizza-card__body">
+            <h3 class="pizza-card__title">Четыре сыра</h3>
+            <p class="pizza-card__description">Моцарелла, чеддер, дорблю и пармезан на тонком тесте.</p>
+            <div class="pizza-card__footer">
+              <p class="pizza-card__price">от 650 ₽</p>
+              <a class="button button_small" href="tel:+78005553535">Заказать</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="delivery section" id="delivery" aria-labelledby="delivery-title">
+      <div class="delivery__content">
+        <p class="section__eyebrow">Быстро и удобно</p>
+        <h2 class="section__title" id="delivery-title">Доставка от 30 минут</h2>
+        <p class="delivery__text">Бесплатно доставим заказ от 1 000 ₽. Оплатить можно картой или наличными курьеру.</p>
+        <a class="button button_primary" href="tel:+78005553535">Позвонить и заказать</a>
+      </div>
+      <div class="delivery__badge" aria-label="Доставка от 30 минут">
+        <span class="delivery__badge-number">30</span>
+        <span class="delivery__badge-label">минут</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contacts">
+    <div class="site-footer__inner">
+      <a class="site-footer__logo" href="#home">Пицца рядом</a>
+      <p class="site-footer__text">Ежедневно, 10:00–23:00</p>
+      <a class="site-footer__phone" href="tel:+78005553535">8 800 555-35-35</a>
+      <p class="site-footer__copyright">© 2025 «Пицца рядом»</p>
+    </div>
+  </footer>
+</body>
+</html>
